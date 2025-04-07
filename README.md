@@ -27,10 +27,6 @@ Interactive Maze: Navigate through a maze with obstacles
 Visual Interface: Graphical representation of the game state
 Audio Effects: (Bonus) Sound effects when enemies catch the player
 
-Implementation Details
-
-Class Structure
-
 The game follows a hierarchical class structure based on OOP principles:
 
 Location Class: Manages coordinate information (x, y)
