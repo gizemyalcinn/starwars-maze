@@ -53,6 +53,9 @@ Game ends when the player either reaches the trophy or loses all lives
 Requirements
 
 Programming Language:C#
+
 UI: WPF
+
 Desktop GUI libraries for graphical interface
+
 Map data loaded from a text file 
