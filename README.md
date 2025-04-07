@@ -9,29 +9,39 @@ The Star Wars Maze Game is a desktop application where players control either Lu
 Features
 
 Character Selection: Choose between Luke Skywalker or Master Yoda, each with unique abilities
-Enemy Characters: Three different enemy types with distinct abilities
 
-Darth Vader: Can break through walls
+Enemy Characters: Three different enemy types with distinct abilities.
+
+Darth Vader: Can break through walls  
+
 Kylo Ren: Moves twice as fast (two squares per turn)
+
 Stormtrooper: Standard movement (one square per turn)
 
 
 Dynamic Pathfinding: Enemies use pathfinding algorithms to chase the player
+
 Life Management: Different health management for each character
 
 Luke Skywalker: Has 3 lives, loses 1 life when caught
+
 Master Yoda: Has more durability, loses only half a life when caught
 
 
 Interactive Maze: Navigate through a maze with obstacles
+
 Visual Interface: Graphical representation of the game state
+
 Audio Effects: (Bonus) Sound effects when enemies catch the player
 
 The game follows a hierarchical class structure based on OOP principles:
 
 Location Class: Manages coordinate information (x, y)
+
 Character Class: Base class for all characters with common attributes and methods
+
 Good Characters: Luke Skywalker and Master Yoda classes
+
 Evil Characters: Darth Vader, Kylo Ren, and Stormtrooper classes
 
 Pathfinding Algorithms
@@ -47,9 +57,13 @@ Custom pathfinding for special character abilities
 Game Mechanics
 
 The player starts at a predetermined position
+
 Enemy characters enter from designated entry points
+
 The player must reach the trophy while avoiding enemies
+
 If caught, the player loses lives according to their character's abilities
+
 Game ends when the player either reaches the trophy or loses all lives
 
 Requirements
