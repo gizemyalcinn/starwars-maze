@@ -1,8 +1,11 @@
 Star Wars Maze Game
 
 This project is a maze-based game developed using Object-Oriented Programming principles and pathfinding algorithms. The game features Star Wars characters where the player must navigate through a maze while avoiding enemy characters.
+
 Project Overview
+
 The Star Wars Maze Game is a desktop application where players control either Luke Skywalker or Master Yoda as they navigate through a maze to reach a trophy while avoiding enemy characters (Darth Vader, Kylo Ren, and Stormtrooper). The game implements various pathfinding algorithms for enemy character movement and showcases OOP concepts through a hierarchical class structure.
+
 Features
 
 Character Selection: Choose between Luke Skywalker or Master Yoda, each with unique abilities
@@ -25,7 +28,9 @@ Visual Interface: Graphical representation of the game state
 Audio Effects: (Bonus) Sound effects when enemies catch the player
 
 Implementation Details
+
 Class Structure
+
 The game follows a hierarchical class structure based on OOP principles:
 
 Location Class: Manages coordinate information (x, y)
@@ -34,6 +39,7 @@ Good Characters: Luke Skywalker and Master Yoda classes
 Evil Characters: Darth Vader, Kylo Ren, and Stormtrooper classes
 
 Pathfinding Algorithms
+
 Enemy characters use pathfinding algorithms to determine the shortest path to the player:
 
 BFS (Breadth-First Search)
