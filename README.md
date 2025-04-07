@@ -39,7 +39,9 @@ Pathfinding Algorithms
 Enemy characters use pathfinding algorithms to determine the shortest path to the player:
 
 BFS (Breadth-First Search)
+
 A* Algorithm
+
 Custom pathfinding for special character abilities
 
 Game Mechanics
@@ -52,7 +54,7 @@ Game ends when the player either reaches the trophy or loses all lives
 
 Requirements
 
-Programming Language:C#
+Programming Language: C#
 
 UI: WPF
 
